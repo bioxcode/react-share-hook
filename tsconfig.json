@@ -7,7 +7,7 @@
     "esModuleInterop": true,
     "outDir": "dist",
     "target": "es5",
-    "module": "es6",
+    "module": "commnjs",
     "moduleResolution": "node"
   },
   "include": ["src/**/*.tsx"]
