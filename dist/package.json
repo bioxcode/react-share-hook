@@ -1,0 +1,36 @@
+{
+  "name": "react-share-hook",
+  "version": "1.0.1",
+  "description": "A simple social share hook for ReactJS",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc && cp package.json README.md ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bioxcode/react-share-hook.git"
+  },
+  "keywords": [
+    "react",
+    "social",
+    "share",
+    "hook"
+  ],
+  "author": "Ben Hayward <beanjiox@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bioxcode/react-share-hook/issues"
+  },
+  "homepage": "https://github.com/bioxcode/react-share-hook#readme",
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.5"
+  }
+}
