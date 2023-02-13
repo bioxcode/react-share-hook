@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "lib": ["dom", "dom.iterable", "ES2017"],
+    "jsx": "react",
+    "declaration": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "target": "es6",
+    "module": "es6",
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*.tsx"]
+}
